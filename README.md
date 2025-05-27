@@ -5,7 +5,7 @@
 Welcome to my personal portfolio website!  
 It's a clean, responsive, and modern single-page site that showcases my **skills**, **projects**, and **contact information**.
 
-🔗 **Live Site**: (https://sagargulia001.github.io/My-Portfolio/)  
+🔗 **Live Site**: (https://my-portfolio-omega-beige.vercel.app/)  
 🛠 Built using: `HTML`, `CSS`, `JavaScript`
 
 ---
