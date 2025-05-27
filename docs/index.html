@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <title>Sagar's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand:700&display=swap" rel="stylesheet">
+    <script src="script.js"></script>
+    <style>
+        @keyframes logo-fade-in {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+
+            <div class="header-content">
+                <div class="text-content">
+                    <h1 class="logo" style="opacity:0;">Sagar Gulia</h1>
+                    <h2 class="subtitle" style="opacity:0;">Web Developer</h2>
+                </div>
+            </div>
+
+            <nav class="nav-menu">
+                <div class="nav-brand">
+                    <img src="nav-image.png" alt="Logo">
+                </div>
+                <button class="nav-toggle" aria-label="Toggle navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div id="home">
+                <div class="content">
+                    <h1>Hi, I'm Sagar</h1>
+                    <p>
+                        A passionate learner exploring the world of tech, currently diving deep into web development. I
+                        build responsive, interactive websites with clean, modern designs—bringing ideas to life through
+                        code and creativity.
+                    </p>
+                    <a href="#contact" class="contact-btn"><button type="button">Contact Me</button></a>
+                </div>
+            </div>
+
+            <div class="welcome-message">Welcome to my portfolio</div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="content">
+            <h1>About Me</h1>
+            <p>
+                I'm a 2nd-year B.Tech CSE student with a strong foundation in C++ and Data Structures & Algorithms,
+                which has shaped my problem-solving mindset.
+            </p>
+            <p> Recently, I've been exploring web development with HTML, CSS, Tailwind CSS, and JavaScript to build
+                personal projects and strengthen my practical knowledge.
+            </p>
+            <p>I'm focused on developing versatile skills that allow me to adapt to different technologies and
+                challenges, with a forward-looking perspective on creating meaningful, user-friendly digital
+                experiences.
+            </p>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="content">
+            <h1>Skills</h1>
+            <div class="skills-grid">
+
+                <!-- Programming Languages -->
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li><img src="c++logo.svg" alt="C++" /> C++</li>
+                        <li><img src="c-logo.svg" alt="C" /> C</li>
+                        <li><img src="python-logo.svg" alt="Python" /> Python</li>
+                    </ul>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category">
+                    <h3>Web Development</h3>
+                    <ul>
+                        <li><img src="html-logo.svg" alt="HTML" /> HTML</li>
+                        <li><img src="css-logo.svg" alt="CSS" /> CSS</li>
+                        <li><img src="tailwindcss-logo.svg" alt="Tailwind" /> Tailwind CSS</li>
+                        <li><img src="javascript-logo.svg" alt="JavaScript" /> JavaScript</li>
+                        <li><img src="reactjs-logo.svg" alt="React" /> React (Exploring)</li>
+                        <li><img src="php-logo.svg" alt="PHP" /> PHP</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Database & Backend</h3>
+                    <ul>
+                        <li><img src="sql-logo.png" alt="SQL" /> SQL</li>
+                    </ul>
+                </div>
+
+                <div class="skill-category">
+                    <h3>Tools & Platforms</h3>
+                    <ul>
+                        <li><img src="github-logo.svg" alt="GitHub" /> Git & GitHub</li>
+                        <li><img src="vscode-logo.svg" alt="VS Code" /> VS Code</li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="projects">
+        <div class="content">
+            <h1>Projects</h1>
+            <div class="project-content">
+                <h3>My Portfolio Website</h3>
+                <p>
+                    A personal portfolio website designed and built from scratch to showcase my skills, interests, and
+                    projects. It's fully responsive and optimized for all screen sizes.
+                </p>
+                <ul>
+                    <li><strong>Tech Stack:</strong> HTML, CSS, JavaScript</li>
+                    <li><strong>Highlights:</strong>
+                        <ul>
+                            <li>Clean, accessible UI optimized for all devices.</li>
+
+                            <li>Built using semantic HTML, modular CSS, and vanilla JavaScript.</li>
+
+                            <li>Focused on performance, responsiveness, and user experience.</li>
+
+                            <li>Features real-world projects and GitHub integration.</li>
+
+                            <li>Structured with maintainable, scalable code practices.</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>
+                    <a href="https://github.com/sagargulia001/My-Portfolio" target="_blank" rel="noopener">
+                        <img src="github-logo.svg" alt="GitHub" class="github-logo">
+                        GitHub Repository
+                        <svg class="external-link-icon" width="1em" height="1em" fill="currentColor" viewBox="0 0 24 24"
+                            style="vertical-align: middle; margin-left: 0.3em;">
+                            <path
+                                d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z">
+                            </path>
+                        </svg>
+                    </a>
+                </p>
+            </div>
+
+            <div class="project-content">
+                <h3>C++ Practice Programs</h3>
+                <p>
+                    A collection of over 50 C++ programs that I wrote while learning C++ from CodeWithHarry’s course.
+                    These cover basics to advanced topics like OOP, file handling, and more.
+                </p>
+                <ul>
+                    <li><strong>Tech Stack:</strong> C++</li>
+                    <li><strong>Highlights:</strong>
+                        <ul>
+                            <li>Well-commented, organized programs</li>
+                            <li>Covers fundamental and OOP concepts</li>
+                            <li>Hosted as a GitHub repository for easy access</li>
+                        </ul>
+                    </li>
+                </ul>
+                <p>
+                    <a href="https://github.com/sagargulia001/My-C-Plus-Plus-Journey" target="_blank" rel="noopener">
+                        <img src="github-logo.svg" alt="GitHub" class="github-logo">
+                        GitHub Repository
+                        <svg class="external-link-icon" width="1em" height="1em" fill="currentColor" viewBox="0 0 24 24"
+                            style="vertical-align: middle; margin-left: 0.3em;">
+                            <path
+                                d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z">
+                            </path>
+                        </svg>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="content">
+            <h1>Contact Me</h1>
+            <p>Feel free to reach out with ideas, suggestions, project collaborations, internship opportunities, or just
+                to say Hello!</p>
+            <form action="https://formspree.io/f/xldbyvnj" method="POST" class="contact-form" autocomplete="off">
+                <div class="form-row">
+                    <label for="contact-name">Name</label>
+                    <input type="text" id="contact-name" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-row">
+                    <label for="contact-email">Email</label>
+                    <input type="email" id="contact-email" name="email" placeholder="your@email.com" required>
+                </div>
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" rows="5" placeholder="Type your message here..."
+                    required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="footer">
+        <ul>
+            <li><img src="email-logo.svg" alt="Email" class="footer-logo">
+                Email:
+                <a href="mailto:sagargulia1689@gmail.com">
+                    sagargulia1689@gmail.com
+                    <svg class="external-link-icon" width="1em" height="1em" fill="currentColor" viewBox="0 0 24 24"
+                        style="vertical-align: middle; margin-left: 0.3em;">
+                        <path
+                            d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <img src="github-logo.svg" alt="GitHub" class="footer-logo">
+                GitHub:
+                <a href="https://github.com/sagargulia001" target="_blank" rel="noopener">
+                    sagargulia001
+                    <svg class="external-link-icon" width="1em" height="1em" fill="currentColor" viewBox="0 0 24 24"
+                        style="vertical-align: middle; margin-left: 0.3em;">
+                        <path
+                            d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+            <li>
+                <img src="linkedin-logo.svg" alt="LinkedIn" class="footer-logo">
+                LinkedIn:
+                <a href="https://linkedin.com/in/sagargulia001" target="_blank" rel="noopener">
+                    sagargulia001
+                    <svg class="external-link-icon" width="1em" height="1em" fill="currentColor" viewBox="0 0 24 24"
+                        style="vertical-align: middle; margin-left: 0.3em;">
+                        <path
+                            d="M 5 3 C 3.9069372 3 3 3.9069372 3 5 L 3 19 C 3 20.093063 3.9069372 21 5 21 L 19 21 C 20.093063 21 21 20.093063 21 19 L 21 12 L 19 12 L 19 19 L 5 19 L 5 5 L 12 5 L 12 3 L 5 3 z M 14 3 L 14 5 L 17.585938 5 L 8.2929688 14.292969 L 9.7070312 15.707031 L 19 6.4140625 L 19 10 L 21 10 L 21 3 L 14 3 z">
+                        </path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+        <div class="copyright">
+            © 2025 Sagar Gulia
+        </div>
+
+    </div>
+
+    <div id="form-success-popup" style="display:none;">
+        Thank you! Your message has been sent.
+    </div>
+</body>
+
+</html>
