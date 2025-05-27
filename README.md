@@ -13,10 +13,10 @@ It's a clean, responsive, and modern single-page site that showcases my **skills
 ## 📸 Preview
 
 ### 🖥️ Desktop View
-![Desktop Screenshot](https://github.com/sagargulia001/My-Portfolio/blob/main/images/Desktop-1.png?raw=true)
+![Desktop Screenshot](https://github.com/sagargulia001/My-Portfolio/blob/main/images/Desktop.png?raw=true)
 
 ### 📱 Mobile View
-![Mobile Screenshot](https://github.com/sagargulia001/My-Portfolio/blob/main/images/Mobile-1.jpg?raw=true)
+![Mobile Screenshot](https://github.com/sagargulia001/My-Portfolio/blob/main/images/Mobile.jpg?raw=true)
 
 ---
 
