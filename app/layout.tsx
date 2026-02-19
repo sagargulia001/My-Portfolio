@@ -27,17 +27,17 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Sagar Gulia", url: "https://github.com/sagargulia001" }],
   creator: "Sagar Gulia",
-  metadataBase: new URL("https://minimal-portfolio-ps.vercel.app"),
+  metadataBase: new URL("https://my-portfolio-omega-beige.vercel.app/"),
   openGraph: {
     type: "website",
-    url: "https://minimal-portfolio-ps.vercel.app",
+    url: "https://my-portfolio-omega-beige.vercel.app/",
     title: "Sagar Gulia - Portfolio",
     description:
       "Explore the portfolio of Sagar Gulia, a Software Engineer focused on performance, scalability, and clean UI/UX.",
     siteName: "Sagar Gulia Portfolio",
     images: [
       {
-        url: "/og_bannerr.jpeg",
+        url: "/portfolio-dark.png",
         width: 1200,
         height: 630,
         alt: "Sagar Gulia Portfolio",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     title: "Sagar Gulia - Portfolio",
     description: "Portfolio of Sagar Gulia — Software Engineer.",
     creator: "@sagargulia001",
-    images: ["/og_bannerr.jpeg"],
+    images: ["/portfolio-dark.png"],
   },
   icons: {
     icon: "/favicon.ico",
@@ -69,7 +69,7 @@ export default function RootLayout({
       </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-          <AnimatedBackground/> 
+          <AnimatedBackground />
           {/* <CursorTrailCanvas
             className="pointer-events-none fixed inset-0 z-50"
             style={{ width: "100vw", height: "100vh" }}
