@@ -49,8 +49,8 @@ export const projects = [
     description:
       "My personal portfolio showcasing my projects, skills, and experience. Features dark/light mode, interactive tech icon cloud, and a working contact form.",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "React", "Nodemailer"],
-    github: "https://github.com/sagargulia001",
-    live: "https://example.com",
+    github: "https://github.com/sagargulia001/My-Portfolio",
+    live: "https://my-portfolio-omega-beige.vercel.app/",
     image: "/portfolio-light-portrait.png",
     image_dark: "/portfolio-dark-portrait.png",
     image_portrait: "/portfolio-light.png",
