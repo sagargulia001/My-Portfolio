@@ -25,12 +25,12 @@ export const projects = [
     description:
       "A full-stack web application for managing and sharing academic research papers within a university. Features role-based authentication, multi-level dashboards, and hierarchical access control for Faculty, HOD, Dean, Vice Chancellor, and Admin roles.",
     tech: ["Next.js", "TypeScript", "PostgreSQL", "Prisma", "Supabase", "Tailwind CSS"],
-    github: "https://github.com/sagargulia001",
-    live: "https://example.com",
-    image: "/placeholder.svg",           // mobile landscape (light)
-    image_dark: "/placeholder.dark.svg", // mobile landscape (dark)
-    image_portrait: "/placeholder.svg",           // desktop portrait (light)
-    image_portrait_dark: "/placeholder.dark.svg", // desktop portrait (dark)
+    github: "https://github.com/sagargulia001/university-research-system",
+    live: "https://urms-ebon.vercel.app/",
+    image: "/urms.png",           // mobile landscape (light)
+    image_dark: "/urms.png", // mobile landscape (dark)
+    image_portrait: "/urms.png",           // desktop portrait (light)
+    image_portrait_dark: "/urms.png", // desktop portrait (dark)
   },
   {
     title: "NeighborShare",
